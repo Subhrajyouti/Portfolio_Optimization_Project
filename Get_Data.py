@@ -6,7 +6,7 @@ from datetime import datetime
 
 # 1) List of all NSE/BSE tickers
 tickers = [
-    "ASHOKLEY.NS",    # Ashok Leyland Ltd
+   "ASHOKLEY.NS",    # Ashok Leyland Ltd
     "BAJAJHFL.NS",    # Bajaj Housing Finance Ltd
     "BANKBARODA.NS",  # Bank of Baroda
     "CENTRALBK.NS",   # Central Bank of India
@@ -37,11 +37,11 @@ tickers = [
     "TATAPOWER.NS",   # Tata Power Co. Ltd
     "TATASTEEL.NS",   # Tata Steel Ltd
     "UCOBANK.NS",     # UCO Bank
-    "IDEA.NS"         # Vodafone Idea Ltd
+    "IDEA.NS"  
 ]
 
 # 2) Date range
-start_date = "2010-01-01"
+start_date = "2020-01-01"
 end_date   = datetime.today().strftime("%Y-%m-%d")
 
 # 3) Download auto-adjusted OHLCV data
